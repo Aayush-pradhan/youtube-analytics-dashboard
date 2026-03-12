@@ -4,9 +4,10 @@ import re
 import matplotlib.pyplot as plt
 import os
 
+
 app = Flask(__name__)
 
-API_KEY = "AIzaSyDvKuBS1S5qcdVNRChcMvP0W_-NXlJPq98"
+API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 recent_searches = []
 

@@ -2,6 +2,10 @@
 
 A Flask-based web application that analyzes YouTube videos and channels using the YouTube Data API.
 
+## Live Demo
+
+🚀 https://youtube-analytics-dashboard-p4oj.onrender.com
+
 ## Features
 
 - Video analytics
